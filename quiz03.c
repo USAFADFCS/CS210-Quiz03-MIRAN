@@ -17,10 +17,10 @@
     
     // user input
     printf("enter risk-value: ");
-    scanf("%i", &riskValue);
+    scanf("%d", &riskValue);
     
     printf("enter number of crewmembers: ");
-    scanf("%i", &numCrewMembers);
+    scanf("%d", &numCrewMembers);
     
     // get risk level
     riskLevel = getRiskLevel(riskValue, numCrewMembers);
